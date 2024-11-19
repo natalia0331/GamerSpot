@@ -1,4 +1,4 @@
-package com.example.gamerspotv2;
+package com.example.gamerspotv2.models;
 
 import java.util.List;
 

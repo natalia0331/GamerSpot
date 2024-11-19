@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.gamerspotv2.models.EventRelease;
+
 import java.util.List;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder>{

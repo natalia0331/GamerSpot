@@ -1,4 +1,4 @@
-package com.example.gamerspotv2;
+package com.example.gamerspotv2.models;
 
 public class Notifications {
     private boolean events;
