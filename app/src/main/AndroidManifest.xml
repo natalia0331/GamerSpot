@@ -19,7 +19,7 @@
 
         <!-- InicioActivity - Actividad principal de inicio -->
         <activity
-            android:name=".InicioActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
 
         <!-- MainActivity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".InicioActivity"
             android:exported="true" />
 
         <!-- LoginActivity -->

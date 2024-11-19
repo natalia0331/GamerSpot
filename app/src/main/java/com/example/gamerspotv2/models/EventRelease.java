@@ -4,18 +4,17 @@ import java.util.List;
 
 public class EventRelease {
     private String id;
-    private String type; // "event" or "release"
+    private String type; // "event" o "release"
     private String title;
     private String description;
-    private String date; // Use LocalDateTime for date-time handling
+    private String date;
     private String time;
     private String location;
     private List<String> platforms;
     private List<String> purchaseLinks;
-    private List<String> media;
+    private String media;
     private String developerId;
 
-    // Getters and Setters
     public String getId() {
         return id;
     }
@@ -88,11 +87,11 @@ public class EventRelease {
         this.purchaseLinks = purchaseLinks;
     }
 
-    public List<String> getMedia() {
+    public String getMedia() {
         return media;
     }
 
-    public void setMedia(List<String> media) {
+    public void setMedia(String media) {
         this.media = media;
     }
 
@@ -103,7 +102,5 @@ public class EventRelease {
     public void setDeveloperId(String developerId) {
         this.developerId = developerId;
     }
-
 }
-
 

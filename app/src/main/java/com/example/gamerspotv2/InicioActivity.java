@@ -50,6 +50,8 @@ public class InicioActivity extends AppCompatActivity {
                 finishAffinity(); // Cierra todas las actividades
             }
         });
+
+
     }
 }
 
